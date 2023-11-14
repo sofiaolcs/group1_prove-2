@@ -1,4 +1,136 @@
 /* CSS style for all pages*/
 
+/*footer design by Rie*/
+footer {
+    background-color: #006248;
+    text-align: center;
+    color: #f4f4f4;
+    padding-bottom: 15px;
+}
+
+.footer-container {
+    text-align: left;
+    padding: 2% 10% 0% 20%;
+    display: flex;  
+    justify-content: space-between;
+    list-style: none;
+}
+
+.column {
+    flex: 1; 
+}
+
+h5 {
+    padding-top: 15px;
+}
+
+.column h3 {
+    font-size: 20px;
+    color: #f4f4f4;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column li {
+    margin-bottom: 5px;
+}
+
+.column a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+ input[type="email"] {
+    padding: 5px;
+    margin: 5px 0;
+}
+.column button {
+    background-color: #fbbc04;
+    color: #fff;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+/*end of footer*/
+
+/*pagination and pager by Rie*/
+.pagination-outer{ 
+    text-align: center;
+}
+.pagination{
+    display: inline-flex;
+    position: relative;
+    margin-bottom: 45px;
+}
+.pagination li a.page-link{
+    color: #4eb149;
+    background: transparent;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 28px;
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    margin: 0 7px;
+    border: 2px solid #4eb149;
+    border-radius: 0;
+    display: block;
+    position: relative;
+    z-index: 0;
+    transition: all 0.5s ease 0s;
+}
+.pagination li:first-child a.page-link,
+.pagination li:last-child a.page-link{
+    font-size: 23px;
+    line-height: 28px;
+}
+.pagination li a.page-link:hover,
+.pagination li a.page-link:focus,
+.pagination li.active a.page-link:hover,
+.pagination li.active a.page-link{
+    color: #fff;
+    background: transparent;
+    border-color: #4eb149;
+    border-top-color: transparent;
+}
+.pagination li a.page-link:before{
+    content: '';
+    background-color: #4eb149;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.5s ease-out 0s;
+}
+.pagination li a.page-link:hover:before,
+.pagination li a.page-link:focus:before,
+.pagination li.active a.page-link:hover:before,
+.pagination li.active a.page-link:before{
+    height: 100%;
+    opacity: 1;
+}
+@media only screen and (max-width: 480px){
+    .pagination{
+        font-size: 0;
+        display: inline-block;
+    }
+    .pagination li{
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 0 15px;
+    }
+}
+
+
+
+
+
 /* CSS style for INDEX page
 Created by Sofia Silva */

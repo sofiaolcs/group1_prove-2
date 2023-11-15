@@ -48,7 +48,7 @@ h5 {
     margin: 5px 0;
 }
 .column button {
-    background-color: #fbbc04;
+    background-color: #eaac20;
     color: #fff;
     border: none;
     padding: 7px 10px;
@@ -66,7 +66,7 @@ h5 {
     margin-bottom: 45px;
 }
 .pagination li a.page-link{
-    color: #4eb149;
+    color: #eaac20;
     background: transparent;
     font-size: 17px;
     font-weight: 700;
@@ -76,7 +76,7 @@ h5 {
     width: 35px;
     padding: 0;
     margin: 0 7px;
-    border: 2px solid #4eb149;
+    border: 2px solid #eaac20;
     border-radius: 0;
     display: block;
     position: relative;
@@ -94,12 +94,12 @@ h5 {
 .pagination li.active a.page-link{
     color: #fff;
     background: transparent;
-    border-color: #4eb149;
+    border-color: #eaac20;
     border-top-color: transparent;
 }
 .pagination li a.page-link:before{
     content: '';
-    background-color: #4eb149;
+    background-color: #eaac20;
     height: 0;
     width: 100%;
     opacity: 0;
@@ -127,10 +127,6 @@ h5 {
         margin: 0 0 15px;
     }
 }
-
-
-
-
 
 /* CSS style for INDEX page
 Created by Sofia Silva */

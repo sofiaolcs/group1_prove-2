@@ -3,6 +3,7 @@
 /*footer design by Rie*/
 footer {
     background-color: #006248;
+    background-color: #006248;
     text-align: center;
     color: #f4f4f4;
     padding-bottom: 15px;
@@ -130,3 +131,6 @@ h5 {
 
 /* CSS style for INDEX page
 Created by Sofia Silva */
+.navbar {
+background-color: #006248;
+}

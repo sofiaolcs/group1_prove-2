@@ -134,3 +134,257 @@ Created by Sofia Silva */
 .navbar {
 background-color: #006248;
 }
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+*
+/*
+CONTACT US (Nelly's participation)
+*/
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    background-size: cover;
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+.contact .content h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 30px 0;
+    padding-left: 20%;
+    display: flex;
+}
+
+.container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.container .contactInfo .box .text h3 {
+    font-weight: 500;
+    color: #27c1f9;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    background: #666;
+    margin-right:50px;
+    border-radius: 25px;
+}
+
+.contactForm h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    padding-left: 8px;
+    font-size: 16px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    resize: none;
+    border-radius: 10px;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    width: 100%;
+    left: 3px;
+    padding: 10px 0;
+    padding-left: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-70%);
+}
+
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #fff;
+    color: #1E5288;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px) {
+    .contact {
+        padding: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .contactInfo {
+        margin-bottom: 40px;
+    }
+
+    .container .contactInfo
+    .contactForm {
+        width: 100%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/*
+*
+NAVIGATION BAR (Nelly's Parcipation)
+*
+*/
+
+.heroHome{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.hero {
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    width: 280px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav ul li a::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+	width: 100%;
+}

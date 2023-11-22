@@ -1,8 +1,17 @@
 /* CSS style for all pages*/
 
+/*Font by Nelly*/
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', sans-serif;
+}
+
 /*footer design by Rie*/
 footer {
-    background-color: #006248;
     background-color: #006248;
     text-align: center;
     color: #f4f4f4;
@@ -133,6 +142,7 @@ h5 {
 Created by Sofia Silva */
 .navbar {
 background-color: #006248;
+font-size: 17px
 }
 
 
